@@ -63,7 +63,7 @@ job "nightscout" {
         # Basically all plugins enabled
         ENABLE = "careportal basal dbsize rawbg iob maker bridge cob bwp cage iage sage boluscalc pushover treatmentnotify mmconnect loop pump profile food openaps bage alexa override"
         
-        # Dexom settings
+        # Dexcom bridge settings
         BRIDGE_USER_NAME = "username" # Not your email address
         BRIDGE_PASSWORD = "password" # Password
         BRIDGE_SERVER = "EU" # Change this to "US" if you're in the USA
