@@ -1,6 +1,6 @@
 # Nightscout Nomad Job
 
-This is a nomad job template for running the [Nightscout](https://nightscout.github.io) Cloud Glucose Monitor (CGM). I hope it serves as an example for anyone looking to use containerized Nightscout with the HashiStack. 
+This is a nomad job template for running the [Nightscout](https://nightscout.github.io) Continuous Glucose Monitor (CGM). I hope it serves as an example for anyone looking to use containerized Nightscout with the HashiStack. 
 
 ## Sources
 
