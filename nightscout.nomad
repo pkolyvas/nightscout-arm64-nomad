@@ -36,7 +36,10 @@ job "nightscout" {
       config {
         # This could easily be swapped for a non-arm64 docker image
         # Ex. `nightscout/cgm-remote-monitor`
-        image = "dhermanns/rpi-nightscout:latest"
+        image = "eyeoh/rpi-nightscout:14.2.5"
+        # Source image to roll your own
+        # https://github.com/dhermanns/rpi-nightscout
+        # alternate: image = "dhermanns/rpi-nightscout:latest"
         ports = ["nightscout"]
       }
 
