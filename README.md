@@ -4,7 +4,9 @@ This is a nomad job template for running the [Nightscout](https://nightscout.git
 
 ## Sources
 
-The docker image used is: https://github.com/dhermanns/rpi-nightscout
+By default this uses my own docker image: https://hub.docker.com/eyeoh/rpi-nightscout
+
+It originally used @dhermann's here: https://github.com/dhermann/rpi-nightscout
 
 ## Requirements:
   - MongoDB
