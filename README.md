@@ -4,7 +4,7 @@ This is a nomad job template for running the [Nightscout](https://nightscout.git
 
 ## Sources
 
-By default this uses my own docker image: https://hub.docker.com/eyeoh/rpi-nightscout
+By default this uses my own docker image: https://hub.docker.com/r/eyeoh/rpi-nightscout
 
 It originally used @dhermann's here: https://github.com/dhermanns/rpi-nightscout
 
