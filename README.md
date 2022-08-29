@@ -1,8 +1,10 @@
 # Nightscout Nomad Job
 
-This is a nomad job template for running the [Nightscout](https://nightscout.github.io) Continuous Glucose Monitor (CGM). I hope it serves as an example for anyone looking to use containerized Nightscout with the Hashi stack.
+This is a nomad job template for running the [Nightscout](https://nightscout.github.io) Continuous Glucose Monitor (CGM) on 64-bit ARM platforms. I hope it serves as an example for anyone looking to use containerized Nightscout with the Hashi stack.
 
-I've included a separate nomad job for Mongo in case you need it.
+I've used this on Rasberry Pi 4Bs, and on AWS Graviton (T4g) instances.
+
+I've included a separate Nomad job for Mongo in case you need it.
 
 ## Sources
 
